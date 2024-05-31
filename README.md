@@ -1,5 +1,6 @@
-WEB-PAGE-HTML-CSS.git
+WEB-PAGE-HTML-CSS
 
+SCREENSHOTS:
 ![Screenshot (562)](https://github.com/harshraj574/WEB-PAGE-HTML-CSS/assets/66685406/bb6d14a6-4e53-4306-bed8-2a94393a4b75)
 
 ![Screenshot (563)](https://github.com/harshraj574/WEB-PAGE-HTML-CSS/assets/66685406/2f62d076-afe1-4661-b8c4-0a2ccf750636)
