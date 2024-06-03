@@ -23,7 +23,13 @@
             <h4>SUBMIT YOUR APPLICATION</h4>
             <form action="#">
                 <label for="filename" class="label required-field">Resume/CV</label>
-                <input type="file" id="myFile" name="filename"><br>
+                <input type="file" id="myFile" name="filename" style="display: none;" onchange="document.getElementById('file-name').textContent = this.files[0].name">
+
+                <!-- Button to trigger file input -->
+                <button type="button" onclick="document.getElementById('myFile').click()"><img src="button.svg" style="margin-right: 3%;margin-top: 3.5%;">Attach Resume / CV</button>
+                <!-- Display selected file name -->
+                <span id="file-name"></span>
+                <!-- <input type="file" id="myFile" name="filename"><br> -->
 
                 <div class="top-form-margin">
                  <label for="fname" class="label required-field">Full name</label>
@@ -469,5 +475,6 @@
     </footer>
   
  
+    <script src="app.js"></script>
 </body>
 </html>
